@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>6A SDIT AL-ITTIHAD</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="hero">
+        <div class="nav-bar">
+            <div class="nav-logo">
+                <img src="logo nam a.png">
+            </div>
+            <div class="nav-links" id="nav-links">
+                <i class="fa fa-close" onclick="closeMenu()"></i>
+                <ul>
+                    <a href="index.html"><li>HOME</li></a>
+                    <a href="memory.html"><li>MEMORI</li></a>
+                    <a href="pesan.html"><li>KESAN PESAN</li></a>
+                </ul>
+                <a href="pesan.html"><button type="button" class="btn">KESAN PESAN</button></a>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+            </div>
+            <div class="banner-title">
+                <h1>Kalian lulus bukan karena <br><span>corona</span> tapi karena 
+                <span>usaha</span></h1>
+                <a href="memory.html"><button type="button" class="btn">MEMORI</button></a>
+            </div>
+            <div class="vertical-bar">
+                <div class="search-icon">
+                    <i class="fa fa-bars"></i>
+                </div>
+                <div class="social-icon">
+                    <a href="https://www.instagram.com/nam_aofficial/"><i class="fa fa-instagram" ></i></a>
+                </div>
+            </div>
+            <div class="notifications">
+                <div class="contents">
+                    <small>Kelas 6A kelas heboh, seru, tapi tetep baek.</small>
+                </div>
+                <div class="notification-img">
+                    <img src="background.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var show = document.getElementById("nav-links")
+        function showMenu(){
+            show.style.right = "0";
+        }
+        function closeMenu(){
+            show.style.right = '-200px';
+        }
+    </script>
+    
+</body>
+</html>
