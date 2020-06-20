@@ -2,7 +2,7 @@ html {
   height: 100%;
   overflow: hidden;
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url("batik3.jpg");
+    url("/img/batik3.jpg");
 }
 
 body {
@@ -93,7 +93,7 @@ header::before {
   top: 0;
   display: block;
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url("background edit1.jpg");
+    url("/img/background\ edit1.jpg");
   background-size: cover;
   transform-origin: center center 0;
   transform: translateZ(-1px) scale(2);
