@@ -4,6 +4,9 @@
   font-family: sans-serif;
 }
 
+/*preloader*/
+
+/*navigation*/
 .hero {
   height: 100vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
@@ -77,6 +80,7 @@
   float: right;
 }
 
+/*isi*/
 .banner-title {
   margin: 80px 130px;
   color: #ffffff;
